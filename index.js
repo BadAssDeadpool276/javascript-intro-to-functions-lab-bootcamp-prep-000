@@ -12,7 +12,9 @@ function logWhisper(string){
 }
 function sayHiToGrandma(string){
   if(string.toUpperCase != string){
-    return "I can't hear you!";
-    console.log("I can't heat you!");
+       console.log("I can't heat you!");
+       return "I can't hear you!";
+  }else(){
+    return "YES"
   }
 }
